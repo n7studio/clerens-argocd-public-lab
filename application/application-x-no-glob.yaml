@@ -13,8 +13,8 @@ spec:
     targetRevision: HEAD
     path: "xr-noglob"
     directory:
-      include: "{**/x/*.yaml, x/*.yaml}"
-      exclude: "{gcp/**, x/gcp/**}"
+      include: "**/x/*.yaml"
+      exclude: "gcp/**"
       recurse: true
   syncPolicy:
     automated:

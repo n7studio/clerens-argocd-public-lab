@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: gcp-x-app1
+  name: x-azure-core-accountconfig-v1alpha1-app1
 spec:
   selector:
     matchLabels:

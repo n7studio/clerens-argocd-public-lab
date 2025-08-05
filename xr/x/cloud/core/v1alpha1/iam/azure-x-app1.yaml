@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: azure-xrd-app1
+  name: x-cloud-core-iam-v1alpha1-app1
 spec:
   selector:
     matchLabels:
