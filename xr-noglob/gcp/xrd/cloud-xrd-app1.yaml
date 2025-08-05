@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: azure-xrd-app1-noglob
+  name: gcp-xrd-app1-noglob
 spec:
   selector:
     matchLabels:
