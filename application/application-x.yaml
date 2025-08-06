@@ -13,8 +13,8 @@ spec:
     targetRevision: HEAD
     path: xr
     directory:
-      include: "**/x/**/*.yaml"
-      exclude: "**/gcp/**"
+      include: "{*/x/*.yaml,x/*.yaml}"
+      exclude: "{*/gcp/*,gcp/*}"
       recurse: true
   syncPolicy:
     automated:
